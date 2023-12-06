@@ -1,0 +1,50 @@
+* {
+    font-family: 'Tahoma';
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 75vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input:focus {
+    background-color: rgb(233, 227, 220);
+}
+
+textarea {
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: brown;
+}
+
